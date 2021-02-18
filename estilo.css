@@ -1,0 +1,95 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.cab_nav{
+	width: 100%;
+	padding: 5px;
+	text-align: right;
+	position: fixed;
+	top: 0px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.cab_nav ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px 50px;
+	color: white;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	cursor: pointer;	
+}
+
+.cab_nav ul li a{
+ 	text-decoration: none;
+ 	color: #c7c7c7;
+ 	border-left: 5px solid trasparent;
+ 	transition: all 400ms ease;
+ 	
+}
+
+.cab_nav ul li a:hover{
+	background: #1f1f1f;
+	border-left: 5px solid #c7c7c7;
+}
+.nomb_logo{
+	width: 550px;
+	padding: 0px 0px;
+	float: left;
+	position: relative;
+	top: 5%;
+	left: 2%;
+	color: #fff;
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+}
+.logo_img{
+	width: 80px;
+	position: absolute;
+	transform: translateX(-2130%) translateY(-15%)
+
+}
+.contenedor{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	padding: 25px 10px;
+	border: solid;
+	background-color: rgba(51, 127, 187, 0.4);
+}
+.titulo_cont{
+	font-size: 40px;
+	text-align: center;
+	padding: 20px 10px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.parrafo_cont{
+	font-size: 20px;
+	text-align: justify;
+}
+.video{
+	position: fixed;
+	min-width: 100%;
+	min-width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	z-index: -1;
+}
+.foot{
+	background-color: rgba(0, 0, 0, 0.6);
+	margin-top: 48%;
+	width: 100%;
+	padding: 20px 0px;
+	position: relative;
+	font-family: 'Raleway', sans-serif;
+}
+.foot_p{
+	color: #fff;
+	text-align: center;
+}
